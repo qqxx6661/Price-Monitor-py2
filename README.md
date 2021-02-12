@@ -1,9 +1,9 @@
 Price-monitor-py2:电商价格监控(Python2+requests+sqlite+代理池)
 ==========
 
-**PS：该repo为Python2版本备份，Python3新版地址：<a href="https://github.com/qqxx6661/Price-monitor">Price-monitor</a>**
+# 提示
 
-**PS：（2017.11）本项目依赖于免费代理池，由于众所周知的原因免费代理可用性不佳，影响了监控以及邮件提醒的效率（仍然能保持 小时 级别的监控效率），请见谅**
+**该repo为Python2版本备份，不再维护，Python3新版地址：<a href="https://github.com/qqxx6661/Price-monitor">Price-monitor</a>**
 
 # 简介
 
@@ -11,9 +11,9 @@ Price-monitor-py2:电商价格监控(Python2+requests+sqlite+代理池)
 
 **功能：京东商城商品价格监控，用户自行设置商品和预期价格，低于预期价格后自动发送邮件提醒用户抢购。**
 
-**基于Flask的完整监控系统项目地址：<a href="https://github.com/qqxx6661/flask_yzd">点我</a>**
+申明：本脚本没有涉及某东账号登录，没有大批量抓取某东敏感信息，仅抓取商品名称和价格，如有任何敏感问题，请联系我删除。
 
-**目前已经开放（新版）测试：访问<a href="http://www.usau-buy.me/">电商价格监控系统</a>便可体验。**
+**基于Flask的完整监控系统项目地址：<a href="https://github.com/qqxx6661/flask_yzd">点我</a>**
 
 ![image](Demo.png)
 
